@@ -1,6 +1,14 @@
-# .gitignore
+# Секреты
 .env
+
+# Виртуальное окружение Python
+.venv/
+venv/
+
+# Python-кэш
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
+*.py[cod]
+
+# Настройки IDE
+.idea/
+.vscode/
